@@ -6,5 +6,5 @@
 ### 2022-01-02
 
      - frlenkly assignment _ follow system avatar
-
+     - actor 모델에 대한 개념 이해와 분석
 ### to do
