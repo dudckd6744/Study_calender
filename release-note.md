@@ -7,9 +7,4 @@
 
      - frlenkly assignment _ follow system avatar
      - actor 모델에 대한 개념 이해와 분석
-     
-### 2022-01-04
-     - 화상 미팅으로 코드 리뷰
-     - 기초 cs 지식 복습
-     
 ### to do
