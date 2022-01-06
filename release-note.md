@@ -12,4 +12,9 @@
      - 화상 미팅으로 코드 리뷰
      - 기초 cs 지식 복습
      
+### 2022-01-06
+     - interview 2 10 , 13 clock
+          - knowre, WS
+     - network || node || nest || oop || AUTH || OOD ||  base study
+     
 ### to do
