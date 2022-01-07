@@ -38,7 +38,6 @@ function heapSort(arr){
     
     heapify(arr, 0);
   }
-  
   return arr;
 }
 
