@@ -16,5 +16,7 @@
      - interview 2 10 , 13 clock
           - knowre, WS
      - network || node || nest || oop || AUTH || OOD ||  base study
+### 2022-01-08
+     - 블로그 내용들 복습
      
 ### to do
