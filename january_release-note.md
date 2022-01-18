@@ -39,6 +39,12 @@
      
 ### 2022-01-15
      - Koa 프레임워크 적용해서 boilerPlate 
+     
+### 2022-01-16 ~
+     - Koa boilerPlate 구현 진행중
+          - OOP(tsc)
+          - FP
+     
 
           
 ### to do
