@@ -44,6 +44,10 @@
      - Koa boilerPlate 구현 진행중
           - OOP(tsc)
           - FP
+          
+### 2022-01-19
+     - OCP 단일책임원칙 에 관하여 블로깅
+          
      
 
           
