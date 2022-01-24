@@ -54,4 +54,6 @@
 ### 2022-01-23
      - koa-boilerPlate FP 깃허브 소스 찾아서 분석
 
+### 2022-01-24~
+     - koa-boilerPlate FP 구현중
 ### to do
