@@ -56,4 +56,7 @@
 
 ### 2022-01-24~
      - koa-boilerPlate FP 구현중
+          - koa-boilerPlate router 구현
+          - success wrapper 구현
+          - server arch 분석중...
 ### to do
