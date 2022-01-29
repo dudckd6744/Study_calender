@@ -65,5 +65,9 @@
           - refactoring 진행중
                - TypeGuard
                - err loging 
-          
+### 2022-01-29
+     - RoYal project
+          - server arch 구조 개선
+          - exception 미들웨어 구현
+
 ### to do
