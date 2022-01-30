@@ -70,4 +70,10 @@
           - server arch 구조 개선
           - exception 미들웨어 구현
 
+### 2022-01-30
+     - RoYal project
+          - success wrapper 구현
+     - FP 
+          - rxjs 에대해 분석
+          - pipe 기능에대한 
 ### to do
