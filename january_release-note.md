@@ -76,4 +76,11 @@
      - FP 
           - rxjs 에대해 분석
           - pipe 기능에대한 
+          
+### 2022-01-31
+     - FP
+          - pipe 기능 분석후 블로깅
+               - https://youngchang.tistory.com/entry/FP-Pipe
+               
+          
 ### to do
