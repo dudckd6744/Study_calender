@@ -24,4 +24,8 @@
 ### 2022-02-17
     - ECS 사전지식 블로깅
 
+#### 👇 [랜덤 비밀 번호 추출 블로깅](https://youngchang.tistory.com/entry/JS-%EB%9E%9C%EB%8D%A4-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%EC%B6%94%EC%B6%9C-%ED%8A%B9%EC%88%98%EB%AC%B8%EC%9E%90-%EB%8C%80%EB%AC%B8%EC%9E%90-%EC%86%8C%EB%AC%B8%EC%9E%90-%EC%88%AB%EC%9E%90-%ED%8F%AC%ED%95%A8) 
+### 2022-02-17
+    - JS 랜덤 비밀번호 추출 [ 특수문자, 대문자, 소문자, 숫자 ] 포함 
+
 ## todo
