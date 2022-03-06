@@ -26,6 +26,6 @@
         - 어제와 동일 작업
         
 ### 2022-03-06
-    - react 리펙토링을 위한 github All repo 검색 후 코드 분석
+    - RoYal 프론트 부분 리펙토링을 위한 github All repo 검색 후 코드 분석
 
 ### to do
