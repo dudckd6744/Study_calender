@@ -1,57 +1,58 @@
 function randomDigitCharactersSpecialCharacterslength(v){
-    var text='[';
     var qwe =''
+    
+    var 원팀 = [...]
+    var 투팀 = [...]
+    var 쓰리팀 = [...]
 
-    var possible = ["우영창","김수민","김효선","이규형","기모띠"];
-    const toto = v?.replaceAll(",","")
-    console.log(toto+4)
-
+    var possible = [...원팀,...투팀,...쓰리팀]
+    const toto = v
+  
     for( var i=0; i < possible.length; i++ ){
-        qwe += randomPW(possible[toto[i]], 3)
-
-        if(qwe.length === i*6 ){
-           text += qwe += 'w'
-        }
+        qwe += randomPW(possible[toto[i]])
+  
     }
     
-    console.log(qwe)
-    return qwe
-}
+    var str2 = qwe.replace(/(.{12})/g,"$1<=식사조=>")
 
-function randomPW(srt ,lenth) {
+    return str2
+  }
+  
+  function randomPW(srt ,lenth) {
     let test ='';
-
+  
     test+= srt
-
+  
     return test
-}
-
-function randomInt(){
+  }
+  
+  
+  function randomInt(){
     let randomIndexArray = []
-    for (let i=0; i <= 3; i++) {
+    for (let i=0; i < 19; i++) {
         console.log("2")
-      let randomNum= Math.floor(Math.random() * 20)
+      let randomNum= Math.floor(Math.random() * 19)
       if (randomIndexArray.indexOf(randomNum.toString()) === -1) {
         randomIndexArray.push(randomNum.toString())
       } else {
         i--
       }
     }
-    return randomIndexArray.toString()
-}
-
-
-const pipe = (...funcs) => v => {
+    return randomIndexArray
+  }
+  
+  
+  const pipe = (...funcs) => v => {
     return funcs.reduce((res, func) => {
       return func(res);
     }, v);
   };
   
-const res = pipe(
+  const res = pipe(
   randomInt,
   randomDigitCharactersSpecialCharacterslength
-)(0);
-
-
-
-console.log(res); // 10. 잘 작동한다 !
+  )(0);
+  
+  
+  
+  console.log(res); // 10. 잘 작동한다 !
