@@ -1,4 +1,4 @@
-function randomDigitCharactersSpecialCharacterslength(v){
+ function randomDigitCharactersSpecialCharacterslength(v){
   var qwe =''
 
   var 원팀 = ["",];
@@ -13,6 +13,7 @@ function randomDigitCharactersSpecialCharacterslength(v){
   
   var str2 = qwe.replace(/(.{12})/g,"$1\n- ")
   return '- '+ str2
+
 }
 
 
@@ -38,10 +39,25 @@ const pipe = (...funcs) => v => {
 };
 
 const res = pipe(
+  test,
 randomInt,
 randomDigitCharactersSpecialCharacterslength
 )(0);
 
 
+let qqq = 4
+test=()=>{
+  qqq = qqq - 1;
+    if(qqq === 0){
+      console.log('---- 식사조 ----');
+      clearInterval(playTimer)
+      console.log(res);
+      return true
+    }
+  console.log(qqq +"초")
 
-console.log(res);
+}
+let playTimer= setInterval(test , 1000)
+
+
+
