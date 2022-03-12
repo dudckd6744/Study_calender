@@ -17,7 +17,6 @@
 }
 
 
-
 function randomInt(){
   let randomIndexArray = []
   for (let i=0; i < 19; i++) {
@@ -38,11 +37,6 @@ const pipe = (...funcs) => v => {
   }, v);
 };
 
-const res = pipe(
-  test,
-randomInt,
-randomDigitCharactersSpecialCharacterslength
-)(0);
 
 
 let qqq = 4
@@ -59,5 +53,12 @@ test=()=>{
 }
 let playTimer= setInterval(test , 1000)
 
+
+
+const res = pipe(
+  test,
+randomInt,
+randomDigitCharactersSpecialCharacterslength
+)(0);
 
 
