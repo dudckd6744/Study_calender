@@ -36,4 +36,9 @@
     - nestjs mongodb || typeorm Testing 강의 study
     - 사내 hotfix 이슈 || toss payments 연동 이슈로 인한 야근으로 개인공부시간 부족...
 
+### 2022-03-18
+    - 사내 프로젝트 toss 페이먼츠 결제사 배포전 이슈 해결을 위한 야근...
+    
+
 ### to do
+
