@@ -68,7 +68,7 @@
 #### 👇 [js[자바스크립트] Scope 종류[렉시컬 환경, 실행 컨텍스트, 스코프체인]](https://youngchang.tistory.com/entry/js%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Scope-%EC%A2%85%EB%A5%98%EB%A0%89%EC%8B%9C%EC%BB%AC-%ED%99%98%EA%B2%BD-%EC%8B%A4%ED%96%89-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%8A%A4%EC%BD%94%ED%94%84%EC%B2%B4%EC%9D%B8) 
 ### 2022-03-26
     - js 기초 개념들 블로깅!!
-
+ 
 
 ### to do
 
