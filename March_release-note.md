@@ -65,9 +65,15 @@
                 구글링 통해 알아본 결과 결제 취소시 부가세 금액도 같이 넣어주지않아 카카오페이 내에서 자동으로 계산을 하는 로직을 돌리는 경우가있는데 이런경우에 정상적으로 취소가 안된다고 나와있어
                 취소금액 부가세를 같이 넣어서 요청을 하니깐 부분취소가 정상적으로 작동되었다.
                 
-#### 👇 [js[자바스크립트] Scope 종류[렉시컬 환경, 실행 컨텍스트, 스코프체인]](https://youngchang.tistory.com/entry/js%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Scope-%EC%A2%85%EB%A5%98%EB%A0%89%EC%8B%9C%EC%BB%AC-%ED%99%98%EA%B2%BD-%EC%8B%A4%ED%96%89-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%8A%A4%EC%BD%94%ED%94%84%EC%B2%B4%EC%9D%B8) 
+#### 👇 [js[자바스크립트] Scope 종류[렉시컬 환경, 실행 컨텍스트, 스코프체인]](https://youngchang.tistory.com/entry/js%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Scope-%EC%A2%85%EB%A5%98%EB%A0%89%EC%8B%9C%EC%BB%AC-%ED%99%98%EA%B2%BD-%EC%8B%A4%ED%96%89-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8-%EC%8A%A4%EC%BD%94%ED%94%84%EC%B2%B4%EC%9D%B8), [package-Lock.json 을 굳이 깃에 같이 저장해야 될까??](https://youngchang.tistory.com/entry/package-Lockjson-%EC%9D%84-%EA%B5%B3%EC%9D%B4-%EA%B9%83%EC%97%90-%EA%B0%99%EC%9D%B4-%EC%A0%80%EC%9E%A5%ED%95%B4%EC%95%BC-%EB%90%A0%EA%B9%8C) 
 ### 2022-03-26
     - js 기초 개념들 블로깅!!
+    - package-Lock.json 을 굳이 깃에 같이 저장해야 될까?? 블로깅
+    
+#### 👇 [package.json [ tilde, caret ],[ major, minor, patch ]](https://youngchang.tistory.com/entry/packagejson-tilde-caret-major-minor-patch) 
+### 2022-03-27
+    - package.json [ tilde, caret ],[ major, minor, patch ] 블로깅
+
  
 
 ### to do
