@@ -74,7 +74,13 @@
 ### 2022-03-27
     - package.json [ tilde, caret ],[ major, minor, patch ] 블로깅
 
- 
+### 2022-03-28
+    - 사내 프로젝트 토스페이먼츠 가상계좌 부분환불 취소 시 err 로 인한 야근
+        - 토스 페이먼츠 가상계좌 이외 로직에 데이터 update 쿼리 부분은 transaction 이 걸려있는 상태이다
+        - 토스 페이먼츠 유효성 검사 err 날시 payment 데이터를 변경하는데 await을 안걸었을땐 transaction 걸려있는 상태와 무방하므로 상태 업데이트가 잘됐는데 await을 걸어 놓은후 trasaction 걸려있는 상태에서 함수가 리턴이 되어야 commit 되고 await 이 걸린 쿼리가 날아가는데 해당 부분은 유효성 검사후 err가 나면 payment를 업데이트하고 throw를 날리는데 throw 리턴되면 rollback 이된다. 그럼 rollback 이 끝난후 await 이 실행되어야하는데 그땐 이미 함수가 실행이 끝난 상태이다. 해당 문제로 mysql lock 걸리고 timeout 이 떠서 상태 update 가 안되고 mysql err가 났다.
+        - 해결
+           - 유효성검사 후 payment update 하는부분에 await 을 없앤후엔 잘 update 되었다.
+        - 환불 계좌 유효성 체크 err 날때 알림톡으로 보내는 환불 금액이 0 으로 나타나는 err 수정도 필요하다...
 
 ### to do
 
