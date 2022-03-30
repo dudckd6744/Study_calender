@@ -93,6 +93,11 @@
                 - 가상계좌 부분환불 취소 시 mysql lock timeout err
                 - 결제승인 요청시 프론트 amount 백 amount 비교해서 다르면 err 
 
-
+### 2022-03-30
+    - 자사 솔루션 해외서비스 준비로인한 야근...
+        - 환불 API 재검토 및 코드 정리 , 스웨거 문서화
+        - 백오피스에 필요한 사유 작성 API 개발
+        - git convention 작성
+        
 ### to do
 
