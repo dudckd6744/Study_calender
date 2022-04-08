@@ -22,4 +22,12 @@
                 - 참조 사이트
                     - https://stackoverflow.com/questions/56798253/release-template-for-github
                     - https://medium.com/pozalabs/github-repository-release-%EB%B0%98%EC%AF%A4-%EC%9E%90%EB%8F%99%ED%99%94%ED%95%98%EA%B8%B0-30e4738e5283
+
+
+### 2022-04-08
+
+    - 자사 솔루션 github Action yml 수정 및 테스트
+        - 내일 내용 보충
+        
 ### to do
+
