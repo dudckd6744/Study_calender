@@ -33,7 +33,8 @@
             - release.title 에 특정조건을 걸어 분기처리를 한다.
                 - e.g :
                    title:[TW] 1.23.1 => 대만서비스 배포 || [KR] 0.1.1 => 국내서비스 배포
-                   - gitAction 에서 제공하는 startsWith(github.
+                   - gitAction 에서 제공하는 startsWith(github.event.release.name, '[TW]')을 이용하여 분기처리!
+                    - startWith => 앞글자를 
             - release.title 에 휴먼적err 방지를 위해 master에 push 및 merge 시에 release-note 초안을 생성해준다.
             
 ### to do
