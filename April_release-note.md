@@ -27,7 +27,14 @@
 ### 2022-04-08
 
     - 자사 솔루션 github Action yml 수정 및 테스트
-        - 내일 내용 보충
-        
+        - 문제점
+            - 하나의 repo 에서 대만 || 국내 진행중이다. 이 상황에서 release-note를 작성할때 대만 || 국내 둘다 배포된다. 
+        - 해결방법
+            - release.title 에 특정조건을 걸어 분기처리를 한다.
+                - e.g :
+                   title:[TW] 1.23.1 => 대만서비스 배포 || [KR] 0.1.1 => 국내서비스 배포
+                   - gitAction 에서 제공하는 startsWith(github.
+            - release.title 에 휴먼적err 방지를 위해 master에 push 및 merge 시에 release-note 초안을 생성해준다.
+            
 ### to do
 
