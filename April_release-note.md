@@ -37,5 +37,10 @@
                     - startWith => 앞글자를 
             - release.title 에 휴먼적err 방지를 위해 master에 push 및 merge 시에 release-note 초안을 생성해준다.
             
+#### 👇 [Release-note.title 에 따라 배포 분기처리하기 [ GItHub Action ]](https://youngchang.tistory.com/entry/Release-notetitle-%EC%97%90-%EB%94%B0%EB%9D%BC-%EB%B0%B0%ED%8F%AC-%EB%B6%84%EA%B8%B0%EC%B2%98%EB%A6%AC%ED%95%98%EA%B8%B0-GItHub-Action) 
+### 2022-04-10
+    - Release-note.title 에 따라 배포 분기처리하기 [ GItHub Action ]
+
+
 ### to do
 
