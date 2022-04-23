@@ -47,6 +47,10 @@
         - 국내만 배포하기
         - 해외만 배포하기
         - 를 분기처리해서 진행 중 
+        
+#### 👇 [Batch vs Scheduler ( 배치와 스케쥴러 차이)](https://youngchang.tistory.com/entry/Batch-vs-Scheduler-%EB%B0%B0%EC%B9%98%EC%99%80-%EC%8A%A4%EC%BC%80%EC%A5%B4%EB%9F%AC-%EC%B0%A8%EC%9D%B4) 
+### 2022-04-22
+    - Batch vs Scheduler ( 배치와 스케쥴러 차이)
 
 ### to do
 
