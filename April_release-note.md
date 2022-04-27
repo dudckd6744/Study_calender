@@ -51,6 +51,10 @@
 #### 👇 [Batch vs Scheduler ( 배치와 스케쥴러 차이)](https://youngchang.tistory.com/entry/Batch-vs-Scheduler-%EB%B0%B0%EC%B9%98%EC%99%80-%EC%8A%A4%EC%BC%80%EC%A5%B4%EB%9F%AC-%EC%B0%A8%EC%9D%B4) 
 ### 2022-04-22
     - Batch vs Scheduler ( 배치와 스케쥴러 차이)
-
+    
+### 2022-04-27
+    - 유저스토리 기반 개발 명세서를 작성 중에 있어 부족함이 많아 추가적으로 집에서 더 작성해보느라 개인 개발 공부를 못했다.
+      하지만 서비스에 대한 이해도가 깊어지고 흥미가 생겨 잘하고 싶어서 더 집중하게 되고 나름 재미있게 하고있다.
+      빠르게 감을 잡는게 필요하고 가독성을 높이는게 중요하다 ㅜㅜ
 ### to do
 
