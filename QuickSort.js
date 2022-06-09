@@ -42,3 +42,50 @@ function quickSort(array, left = 0, right = array.length - 1) {
     return array;
 }
   console.log(quickSort([9, 12,2, 1,5, 26, 7, 14, 3, 7,20]));
+
+
+  @Entity
+public class User {
+    @Id
+    private Long id;
+    private String name;
+    
+    protected User() {}
+    
+    public User(Long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+    
+    public Long getId() {
+        return this.id;
+    }
+    
+    public String getName() {
+        return this.name;
+    }
+}
+public interface UserRepository {
+    void save(User user);
+    User findById(long id);
+}
+public class FakeUserRepository implements UserRepository {
+    private Collection<User> users = new ArrayList<>();
+    
+    @Override
+    public void save(User user) {
+        if (findById(user.getId()) == null) {
+            user.add(user);
+        }
+    }
+    
+    @Override
+    public User findById(long id) {
+        for (User user : users) {
+            if (user.getId() == id) {
+                return user;
+            }
+        }
+        return null;
+    }
+}
