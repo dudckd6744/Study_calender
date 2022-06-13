@@ -83,5 +83,20 @@
           - 중요한 키의 경우 암호화를 시키는데 보안이 더욱 강화 돼 그럴 필요가 없어졌다.
             - 진짜 중요하고 주마다 변경시켜줘야되는 키의 경우 aws 에서 제공하는 서비스 시크릿 매니저 가 있는 그 서비스를 쓰면 된다.
           
+### 2022-06-13
+  - msk 적용 하는 과정
+    - 로컬에서 연동 하는 부분에서 sasl 을 통해 인증하는 부분에서 kafkajs로는 지원이 안되고있는 이슈가있다
+      [msk cluster 가 같은 vpc 내부에 있지않으면 통신이 안되는 이슈]
+      - 해결
+        ec2를 msk cluster 와 동일한 vpc 로 설정하여 생성한다.
+        openVPN 도커이미지로 띄워 실행
+        이제 openVPN client 를 이용해 접속 가능
+        그러면 이제 vpn 을 통해 현재 로컬에서도 vpc 내부에 있는 것처럼 작동하게 되어 접속이 가능해진다.
+    - topic auto create err || replicatoin invaild err
+      - 해결
+        cluster configuration 에서 해당 설정들을 자신이 원하는 작업환경에 맞게 설정한다
+        auto.topic... => ture
+        default.replication... => broker 숫자에 맞게
+
 
 ## todo
