@@ -98,5 +98,9 @@
         auto.topic... => ture
         default.replication... => broker 숫자에 맞게
 
+### 2022-06-14
+  - typeORM Upsert 이슈
+    - confict 조건을 걸어도 데이터가 계속 새로 생성됨
+      - 아마 pk 를 조건으로 안걸어서 계속 생성된거같다. 한블로그에서도 update 조건에 pk 가 명시되어야 된다고 나와있다.
 
 ## todo
