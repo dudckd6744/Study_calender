@@ -152,4 +152,10 @@
 ### 2022-06-23
   - nodejs kafka 한 소비자 그룹내에 여러 토픽을 구독해서 이벤트를 받는 방법 검토
 
+### 2022-06-24
+  - nodejs kafka 한 소비자 그룹내에 여러 토픽을 구독
+    nestjs 에서 eventPattern 데코레이터로 각각 함수로 받을 수 있는 방법은 metadata 를 이용하는 방법이므로 가능하지만
+    nodejs 에서는 해당 방법으로 구현이안된다 
+    run 함수내에 topic 별로 받는 방법을 객체 리터럴 패턴으로 구현하여 이벤트를 받게 되었다.
+    https://github.com/tulios/kafkajs/issues/1040
 ## todo
