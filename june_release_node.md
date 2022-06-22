@@ -133,8 +133,20 @@
 ### 2022-06-20
   - ECS ci/cd 자동화 배포 검토
 
-### 2022-06-21
-  - ECS ci/cd dev 서버 자동화 배포 적용
+### 2022-06-21 ~ 22
+  - ECS ci/cd dev 서버 자동화 배포 적용 [msa]
     - shipping
-      과정 내일
+      이중 인증 => label 이 shipping 일떄 와 /apps/shipping/** shipping 디렉토리 내에 수정사항이 있을때
+      1차적으로 수정내역으로 보고 action 이 활성화 된다.
+      2차적으로 label 이 어떤 서비스이냐에 따라 걸러진다. 
+    - github actions [ env 파일 생성 방법 ]
+      ```
+       steps:
+      - name: "Say Hello Mona it's Monday"
+        run: echo "AWS_SECRET_ID=$AWS_SECRET_ID_TEST" >> .env
+        env:
+          AWS_SECRET_ID_TEST: ${{ secrets.AWS_SECRET_ID_TEST }}
+      ```
+     github 에 저장되지 않는 env 파일은 secret 에 환경변수를 넣어 놓고 gitaction 런타임 상 이런식으로 env 파일을 생성할 수가 있다.
+      
 ## todo
