@@ -148,5 +148,8 @@
           AWS_SECRET_ID_TEST: ${{ secrets.AWS_SECRET_ID_TEST }}
       ```
      github 에 저장되지 않는 env 파일은 secret 에 환경변수를 넣어 놓고 gitaction 런타임 상 이런식으로 env 파일을 생성할 수가 있다.
-      
+
+### 2022-06-23
+  - nodejs kafka 한 소비자 그룹내에 여러 토픽을 구독해서 이벤트를 받는 방법 검토
+
 ## todo
