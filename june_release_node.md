@@ -158,4 +158,11 @@
     nodejs 에서는 해당 방법으로 구현이안된다 
     run 함수내에 topic 별로 받는 방법을 객체 리터럴 패턴으로 구현하여 이벤트를 받게 되었다.
     https://github.com/tulios/kafkajs/issues/1040
+
+### 2022-06-24
+  - typeORM transaction 관리 이슈
+    - 시퀄라이즈 경우 transaction 관리를 미들웨어로 만들어서 각 쿼리 인자에 transaction 을 넘겨주면 자동으로 transaction 이 수행된다. 롤백이나 커밋
+    - typeORM 은 transaction 의 경우 queryRunner 로 쿼리를 짜서 트랜잭션을 수행하여야되기때문에 transaction 이 필요한 함수에만 queryRunner 를 써야되는 이슈가 있다.
+    
+
 ## todo
