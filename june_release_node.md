@@ -159,10 +159,15 @@
     run 함수내에 topic 별로 받는 방법을 객체 리터럴 패턴으로 구현하여 이벤트를 받게 되었다.
     https://github.com/tulios/kafkajs/issues/1040
 
-### 2022-06-24
+### 2022-06-25
   - typeORM transaction 관리 이슈
-    - 시퀄라이즈 경우 transaction 관리를 미들웨어로 만들어서 각 쿼리 인자에 transaction 을 넘겨주면 자동으로 transaction 이 수행된다. 롤백이나 커밋
+    - 시퀄라이즈의 경우 transaction 관리를 미들웨어로 만들어서 각 쿼리 인자에 transaction 을 넘겨주면 자동으로 transaction 이 수행된다. 롤백이나 커밋
     - typeORM 은 transaction 의 경우 queryRunner 로 쿼리를 짜서 트랜잭션을 수행하여야되기때문에 transaction 이 필요한 함수에만 queryRunner 를 써야되는 이슈가 있다.
-    
+
+### 2022-06-26
+  - nestjs decorater 란
+    데코레이터를 잘 사용하면 횡단관심사를 분리하여 관점 지향 프로그래밍을 적용한 코드를 작성할 수 있습니다.
+    [AOP]
+    횡단관심사의 분리를 허용함으로써 모듈성을 증가시키는 것이 목적인 프로그래밍 패러다임
 
 ## todo
