@@ -175,4 +175,9 @@
     logging, auth, exception , interceptor 를 여러 서비스에서 공통으로 쓰기에 기능 통합을 하였고 현재는 해당 core를 최상위 디렉토리에 올려 같이 쓰기에는 gitaction yml 파일도 
     수정이 필요하기에 한 서비스에서 페어코딩으로 맞추고 복붙으로 갖다쓰기로 결정
 
+### 2022-06-28
+  - typeorm left join count 이슈
+    - join count 를 가져올시 Getmany 로 들고오지 못하고 getRowMany 로 들고와야 되는 이슈
+      원시 데이터로 뽑아야 가져올수있다.
+    
 ## todo
