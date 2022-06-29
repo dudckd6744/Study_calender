@@ -180,4 +180,8 @@
     - join count 를 가져올시 Getmany 로 들고오지 못하고 getRowMany 로 들고와야 되는 이슈
       원시 데이터로 뽑아야 가져올수있다.
     
+### 2022-06-29
+  - shipping server Prod, stage ECS CI/CD 구축 준비
+    taskDefinition 작성 및 gitAction yml 파일 수정
+
 ## todo
