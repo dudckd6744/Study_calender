@@ -7,7 +7,6 @@ import (
 func main() {
 	var arr2 = []int{}
 
-
 	for i:=1; i<=100; i ++ {
 		seven:= i*7
 		naine:=i*9
