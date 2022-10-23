@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -16,23 +15,14 @@ func main() {
 			arr2 = append(arr2, seven)
 		}
 		if naine < 100{
+			if(naine !=63){
 			arr2 = append(arr2, naine)
+			}
 		}
 	}
 	sort.Ints(arr2)
-	keys := make(map[int]bool) 
 
-	ue := []int{} 
-	fmt.Print((keys[7]))
-	for _,value := range arr2{
-		 if _,saveValue := keys[value]; !saveValue{
-			  keys[value] = true 
-			  ue = append(ue, value) 
-			}
-	} 
-	for _,data := range ue{
+	for _,data := range arr2{
 		print(data," ")
 	}
-
-
 }
