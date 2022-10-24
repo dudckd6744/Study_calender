@@ -1,10 +1,10 @@
-package main
+package test
 
 import (
 	"sort"
 )
 
-func main() {
+func Test1() {
 	var arr2 = []int{}
 
 	for i:=1; i<=100; i ++ {

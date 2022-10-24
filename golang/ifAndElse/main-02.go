@@ -1,10 +1,11 @@
-package main
+package test
 
 import "fmt"
 
+var Art = "test"
 // 두수의 차
 // 무조건 큰 수에서 작은 수를 뺀 결과를 출력해야합니다.
-func main() {
+func Test()int {
 	
 	var num1,num2,result int
 
@@ -17,4 +18,5 @@ func main() {
 	}
 	
 	fmt.Print(result)
+	return result
 }
