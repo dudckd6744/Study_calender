@@ -4,18 +4,18 @@ import "fmt"
 
 func main() {
 	
-	num1:=2
+	var multiArray [2][3][4]int //3차원 배열 선언
+    multiArray[1][1][2] = 10  // 인덱스를 이용한 값 초기화
 
-	for i :=1; i <10; i++ {
-		if num1 % 2 ==1 {
-			for k:=1; k <=num1; k++ {
-				result := num1 * k
-				fmt.Printf("%d x %d = %d\n",num1, k, result)
-			}
-			fmt.Println("")
+	fmt.Println((multiArray))
 
-		}
-		num1++
 
-	}
 }
+[
+	[
+		[0 0 0 0] [0 0 0 0] [0 0 0 0]
+	] 
+	[
+		[0 0 0 0] [0 0 10 0] [0 0 0 0]
+	]
+]
