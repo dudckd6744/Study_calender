@@ -1,21 +1,31 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
+// func bubbleSort(nums []int) {
+// 	var temp int
 	
-	var multiArray [2][3][4]int //3차원 배열 선언
-    multiArray[1][1][2] = 10  // 인덱스를 이용한 값 초기화
+// }
 
-	fmt.Println((multiArray))
+// func inputNums() (nums []int) {	
+// 	var endpoint int
+// 	var num int
+// 	fmt.Scan(&endpoint)
+// 	for {
+// 		fmt.Scan(&num)
+// 		nums = append(nums, num)
+// 		if endpoint==len(nums) {
+// 			return
+// 		}
+// 	}
+// }
 
+// func outputNums() {
+	
+// }
 
-}
-[
-	[
-		[0 0 0 0] [0 0 0 0] [0 0 0 0]
-	] 
-	[
-		[0 0 0 0] [0 0 10 0] [0 0 0 0]
-	]
-]
+// func main() {	
+// 	nums := inputNums()
+// 	bubbleSort(nums)
+// 	outputNums()
+// }
