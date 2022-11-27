@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// defer 연속적으로 출력시 lifo 방식으로 출력됨
 func main() {
 	
 	var name string
