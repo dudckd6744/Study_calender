@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+//  채널에서 select 개념 잡기
 func main() {
 	ch:= make(chan string)
 
