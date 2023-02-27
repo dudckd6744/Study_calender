@@ -7,7 +7,7 @@ import (
 func inputSubNum() (int, error) {		
 	var num int
 	
-	fmt.Scanln(&num)
+	fmt.Scanln(num)
 	
 	if num <= 0{
 		err := fmt.Errorf("잘못된 과목 수입니다.")
