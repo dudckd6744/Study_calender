@@ -6,16 +6,13 @@ import (
 )
 
 func main() {
-	chal := make(chan bool)
+	chal := make(chan bool, 50)
 
-	go func ()  {
-		for i := 0; i < 20 ; i ++ {
-			chal <- true
-		}
-		// close(chal)
-		fmt.Println("송신 루틴 완료")
-		
-	}()
+	for i := 0; i < 20 ; i ++ {
+		chal <- true
+	}
+	// close(chal)
+	fmt.Println("송신 루틴 완료")
 	
 	for i := 0; i < 20 ; i ++ {
 	  <- chal
