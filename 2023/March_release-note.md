@@ -12,4 +12,9 @@
     - 마케팅 페르소나
         - JTBD
 
+### 2023-03-21
+
+    - go - mysql 연동 블로그 reading
+    - go server arch 설계
+
 ### to do
