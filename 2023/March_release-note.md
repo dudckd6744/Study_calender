@@ -17,4 +17,10 @@
     - go - mysql 연동 블로그 reading
     - go server arch 설계
 
+### 2023-03-23
+
+    - mysql 오류로 인한 재설치
+    - go - mysql
+        - orm 없이 생쿼리로 기초 공부
+
 ### to do
