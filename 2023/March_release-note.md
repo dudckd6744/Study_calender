@@ -42,4 +42,11 @@
     - 수학력이란 ?
         - chapter1.
 
+
+### 2023-03-30
+
+    - go - mysql
+        - dml
+            - select
+            
 ### to do
