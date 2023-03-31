@@ -51,7 +51,7 @@
             
 ### 2023-03-31
 
-    - go - mysql
+    - go -mysql
         - layer Arch 적용시켜서 리펙토링
 
 ### to do
